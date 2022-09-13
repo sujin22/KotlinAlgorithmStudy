@@ -3,12 +3,17 @@ import java.io.InputStreamReader
 
 
 fun main(){
-    var sum = 0
-    var br :BufferedReader = BufferedReader(InputStreamReader(System.`in`))
 
-    repeat(5){
-        sum+= br.readLine().toInt()
+}
+class Person(
+    val name:String,
+    var age: Int
+){
+    init{
+        if(age<0){
+            throw IllegalArgumentException("나이는 ${age}일 수 없습니다.")
+        }
     }
 
-    println(sum)
+    constructor(name:String):this(name, 1)
 }
