@@ -2,8 +2,6 @@
 */.DS_Store
 .DS_Store
 
-toss_semitest/
-
 # Created by https://www.toptal.com/developers/gitignore/api/kotlin
 # Edit at https://www.toptal.com/developers/gitignore?templates=kotlin
 
@@ -34,3 +32,6 @@ hs_err_pid*
 replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/kotlin
+
+toss_semitest/
+kotlin_module
